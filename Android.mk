@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter a106, $(TARGET_DEVICE)),)
+ifneq ($(filter a369i, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
